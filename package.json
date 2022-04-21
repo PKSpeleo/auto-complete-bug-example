@@ -1,0 +1,7 @@
+{
+  "name": "auto-complete-bug",
+  "version": "1.0.0",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
