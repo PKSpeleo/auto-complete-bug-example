@@ -3,7 +3,7 @@
 [IntelliJ Bug issue](https://intellij-support.jetbrains.com/hc/en-us/community/posts/5101885176210--BUG-Debugger-console-doesn-t-auto-complete-on-macOS-12-3-and-IntelliJ-IDEA-2022-1-)
 
 
-### Case 1: not imported module
+## Case 1: not imported module
 - Got to file 'hello.js'
 - On the line number 3 (after `debugger` line) start to type: `aaa.`
 - You will see autosuggestion `iiHasNotBeenImported`
