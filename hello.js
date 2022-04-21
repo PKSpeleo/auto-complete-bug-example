@@ -1,6 +1,6 @@
 const aaa = 'some string';
 debugger;
-aaa.america;
+aaa.itHasNotBeenImported();
 console.log(aaa);
 
 

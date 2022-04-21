@@ -8,6 +8,9 @@
 ![img.png](img.png)
 
 - You can apply and will not see any error or trying to import it from `test.js`
+
+![img_9.png](img_9.png)
+
 - The code running will be failed.
 - Run debugger, the code will stop on the line 2 (debugger).
 - Go to Debugger Console and try to type `aaa.`.
