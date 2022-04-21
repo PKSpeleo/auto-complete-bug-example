@@ -1,5 +1,8 @@
 # This is simple example how IntelliJ Editor and Debugger console context works with code autocomplete (suggestions)
 
+[IntelliJ Bug issue](https://intellij-support.jetbrains.com/hc/en-us/community/posts/5101885176210--BUG-Debugger-console-doesn-t-auto-complete-on-macOS-12-3-and-IntelliJ-IDEA-2022-1-)
+
+
 ### Case 1: not imported module
 - Got to file 'hello.js'
 - On the line number 3 (after `debugger` line) start to type: `aaa.`
@@ -44,7 +47,7 @@ yarn install --frozen-lockfile
 - On the line number 3 (after `debugger` line) start to type: `aaa.`
 - You will see autosuggestion from installed package: 
 
-![img_5.png](img_5.png)
+![img_10.png](img_10.png)
  
 - Again no errors or automatic import if suggestion was applied:
 
@@ -54,13 +57,13 @@ yarn install --frozen-lockfile
 - Make sure that code was sopped on the line with 'debugger'
 - Got to Debugger console
 - Start typing 'aaa.'
-- Pay attention on the showed menu with autocompletion suggestions again:
+- Pay attention on the showed menu with autocompletion suggestions again (america and so on):
 
-![img_7.png](img_7.png)
+![img_11.png](img_11.png)
 
 
 **Questions:**
-- Why suggestions are there?
+- Why suggestions are there (america and so on)?
 - Why in the editor this suggestion appears if it was not imported?
 - Ok, if it was applied - then it must be imported automatically or IntelliJ must highlight the error, but it is looks fine:
 
